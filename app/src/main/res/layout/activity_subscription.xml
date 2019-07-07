@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="50dp"
+    android:layout_height="match_parent" android:gravity="center"
+    tools:context=".SubscriptionActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/one"
+        android:text="One Day"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/two"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/one"
+        android:text="One Week"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/two"
+        android:textSize="30dp"
+        android:id="@+id/three"
+        android:text="One Month(10%off)"/>
+    <TextView
+    android:layout_width="match_parent"
+        android:textSize="30dp"
+    android:layout_height="wrap_content"
+        android:id="@+id/four"
+        android:layout_below="@+id/three"
+    android:text="One Year(25% off)"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_below="@+id/four"
+        android:text="Personal Assistant"/>
+</RelativeLayout>
